@@ -1,0 +1,15 @@
+.main-container {
+    margin: 100px auto;
+  }
+  #answer {
+    width: 300px;
+    display: inline-block;
+  }
+  .response-message {
+    margin-top: 50px;
+  }
+  @media (max-width: 575.98px) {
+    #answer {
+      width: 100%;
+    }
+  }

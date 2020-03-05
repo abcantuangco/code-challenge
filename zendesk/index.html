@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoZendesk: Coding Challengecument</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-light">
+    <div class="container main-container">
+      <div class="text-center">
+        <h2>Zendesk: Coding Challenge</h2>
+        <p class="lead">
+          You need to find the summation of the first
+          <strong>12345</strong> prime numbers. This number is the decryption
+          key for the encoded text.<br />
+          For example, the summation of the first <strong>3</strong> prime
+          numbers is <strong>10</strong>.
+          <strong>(10 = 2 + 3 + 5)</strong>
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 mt-10 text-center">
+          <h4 class="mb-3">What is your answer?</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="answer"
+                  placeholder=""
+                  value=""
+                  required
+                />
+                <div class="invalid-feedback">
+                  Answer is required.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 mt-3">
+                <button class="btn btn-primary" type="submit">
+                  Submit Answer
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-12 response-message"></div>
+      </div>
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
