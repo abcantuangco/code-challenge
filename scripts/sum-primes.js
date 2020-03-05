@@ -26,7 +26,7 @@ class SumPrimes {
 const input = process.stdin;
 
 console.log(
-  'Please enter the a number to compute the sum of the first prime numbers: '
+  'Enter a number to compute the sum of the first prime numbers of that number: '
 );
 
 input.on('data', function(data) {
