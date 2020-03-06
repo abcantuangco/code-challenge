@@ -9,7 +9,7 @@ class SumPrimes {
     let ctr = num;
     let n = 1;
     do {
-      if (this.isPrimeNumber(n) && n > 1) {
+      if (this.isPrimeNumber(n)) {
         sum += n;
         ctr--;
       }
