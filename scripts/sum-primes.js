@@ -1,11 +1,8 @@
 class SumPrimes {
   isPrimeNumber(num) {
-    for (let n = 2; n < num; n++) {
-      if (num % n === 0) {
-        return false;
-      }
-    }
-    return true;
+    for (let c = 2, n = Math.sqrt(num); c <= n; c++)
+      if (num % c === 0) return false;
+    return num > 1;
   }
   sumFirstPrimes(num) {
     let sum = 0;
